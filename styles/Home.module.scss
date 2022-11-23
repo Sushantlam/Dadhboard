@@ -1,0 +1,73 @@
+.heading{
+  width: 15vw;
+  height: 100vh;
+  background-color: #fff;
+  box-shadow: 3px 0px 6px 0px rgba(248,248,248,1);
+  overflow-y: hidden;
+  position: fixed;
+  border: 1px rgba(248,248,248,1);
+  .logo{
+    padding-left: 20px;
+    color: pink;
+  }
+  
+  
+  .wrapper{
+    height: 90vh;
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+
+  .wrapperSection{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    //align-items: center;
+    padding-left: 20px;
+    
+   margin-top: 60px;
+
+    li{
+      list-style: none;
+      text-decoration: none;
+      padding: 15px;
+      opacity: 0.6;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    li:hover{
+      cursor: pointer;
+      opacity: 0.9;
+
+    }
+  }
+    
+  }
+  .logOutUlSection{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    //align-items: center;
+    padding-left: 40px;
+
+    li{
+      list-style: none;
+      text-decoration: none;
+      padding-left: 45px;
+     font-size: 18px;
+     opacity: 0.9;
+      ;
+    }
+    li:hover{
+      cursor: pointer;
+      opacity: 0.3;
+      
+    }
+    
+  }
+}
+
+
+

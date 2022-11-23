@@ -1,0 +1,53 @@
+.tableHeading{
+   
+    background-color: rgb(255, 255, 255);
+    color: black;
+    margin-left: 16rem;
+    margin-right: 1rem;
+    width: 54vw;
+    border-radius: 10px;
+    margin-top: 3rem;
+   
+    
+   
+    
+    .tableWrapper{
+        width: 100%;
+       padding-left: 2rem;
+       padding-right: 1rem;
+    }
+    
+
+  
+    tr{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+         margin: 10px 0px;
+         th{
+            text-align: center;
+         }
+         td{
+            text-align: center;
+            font-size: 15px;
+            button{
+                height: 30px;
+                width: 60px;
+                background-color: pink;
+                border:1px transparent;
+                border-radius: 8px;
+            }
+            button:hover{
+                cursor: pointer;
+            }
+         }
+    }
+
+    .statistics{
+        background-color:red;
+        margin-left: 20px;
+
+        
+    }
+}

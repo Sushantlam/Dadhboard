@@ -1,0 +1,59 @@
+.header{
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    margin-left: 14rem;
+    margin-right: 1rem;
+    .container{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .Container{
+       
+        display: flex;
+        justify-content: space-between;
+         .wrapper{
+            margin-top: 10px;
+            margin-left: 1rem;
+            h2{
+             font-size: 20px;
+            //  color: rgb(166, 250, 222);
+           
+            span{
+                color: pink;
+                font-size: 25px;
+            }}
+            p{
+                margin-top: 0.5rem;
+                font-size: 18px;
+            }
+        }
+        .logo{
+            margin-right: 2rem;
+            margin-top: 25px;
+            font-size: 18px;
+            // // height: 30px;
+            opacity: 0.6;
+            width: 20vw;
+            // background-color: blueviolet;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-evenly;
+
+            .logoContainer{
+                padding-top: 1rem;
+                button {
+                    height: 30px;
+                    width: 120px;
+                   }
+
+            }
+      
+        }
+        .logo:hover{
+            cursor: pointer;
+        }
+    }
+  
+  }
