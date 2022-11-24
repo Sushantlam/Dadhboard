@@ -36,10 +36,13 @@
                 width: 60px;
                 background-color: pink;
                 border:1px transparent;
-                border-radius: 8px;
+                border-radius: 6px;
             }
             button:hover{
                 cursor: pointer;
+                background-color: transparent;
+                border: 1px solid black;
+                color: rgb(245, 146, 163);
             }
          }
     }
