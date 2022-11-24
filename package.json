@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "release": "standard-version"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
@@ -37,6 +38,7 @@
   "devDependencies": {
     "husky": "^8.0.2",
     "lint-staged": "^13.0.3",
-    "prettier": "2.8.0"
+    "prettier": "2.8.0",
+    "standard-version": "^9.5.0"
   }
 }
